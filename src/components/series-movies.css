@@ -1,0 +1,48 @@
+.bloque {
+  width: 150px;
+  height: 230px;
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 13px;
+  text-align: bottom;
+}
+.serie {
+  width: 260px;
+  height: 400px;
+}
+
+.logo-series-movies {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+}
+
+.ajuste-tam {
+  width: 150px;
+}
+.title {
+  font-weight: bold;
+  width: 80%;
+}
+.par-adjust {
+  width: 65%;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(10rem, 1fr));
+  grid-template-rows: auto [last-line];
+}

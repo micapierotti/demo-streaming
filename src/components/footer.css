@@ -1,0 +1,58 @@
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(19, 19, 19);
+  color: rgb(196, 199, 202);
+}
+
+p {
+  font-size: smaller;
+}
+.non-p {
+  font-size: medium;
+}
+.non-p:hover {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+.assets {
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen {
+  height: 35px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.fb {
+  width: 19.44px;
+}
+.other {
+  width: 35px;
+}
+.imagen2 {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 40px; /* 
+  object-position: right; */
+}
+
+.left-btns {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons {
+  width: fit-content;
+  height: fit-content;
+}

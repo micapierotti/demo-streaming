@@ -1,0 +1,53 @@
+.header1 {
+  background: linear-gradient(rgba(112, 237, 253, 0.5), transparent);
+  background-color: rgb(0, 89, 255);
+  box-shadow: 0 3px 8px 0 #000;
+  -webkit-box-shadow: 0 3px 8px 0 #000;
+  z-index: 10;
+}
+
+.header2 {
+  /* display: flex; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.25), transparent); */
+  /* margin-top: 1%; */
+  background-color: rgb(58, 58, 58);
+}
+div {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.login {
+  color: rgb(250, 250, 250);
+  margin-left: auto;
+  padding: 1.25rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  justify-content: end;
+  font-weight: 600;
+}
+.freeTrial {
+  background-color: rgb(58, 58, 58);
+  background: linear-gradient(rgb(95, 95, 95), rgb(58, 58, 58));
+  /* border: none; */
+  color: white;
+  padding: 2px 12px;
+  margin: 12px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}
+.headerTitle {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.shad {
+  text-shadow: 2px 2px rgb(0, 73, 209);
+}
+.dec {
+  text-decoration: none !important;
+}
